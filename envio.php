@@ -11,13 +11,14 @@
     $header="X-Mailer: PHP/".phpversion();
 
     $carta="De: $nombre /n";
-    $carta="Correo: $email /n";
-    $carta="Mensaje: $mensaje";
+    $carta .="Correo: $email /n";
+    $carta .="Mensaje: $mensaje";
 
 	$mail=mail($destinatario,$asunto,$carta,$header);
     if ($mail) {
         # code...
         echo "<h3>Mail envio exitosamente</h3>";
+        header("Location: https://www.syslab.gmiti.com/", TRUE, 301);
     }
  
 ?>
