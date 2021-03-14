@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    - export REPOPATH=/home/gmituqtd/repositories/SyslabSite 
+    - export DEPLOYPATH=/home/gmituqtd/public_html/SyslabSite
+    - /bin/cp -ru ./ $DEPLOYPATH/SyslabSite/
+    - /bin/chmod 755 $DEPLOYPATH/SyslabSite/
+    - cd $DEPLOYPATH/SyslabSite/
+    # Cambiar a directorio de aplicación para operaciones específicas
+    - /bin/rm -rf .git
+   
