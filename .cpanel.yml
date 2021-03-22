@@ -8,4 +8,5 @@ deployment:
     - cd $DEPLOYPATH/SyslabSite/
     # Cambiar a directorio de aplicación para operaciones específicas
     - /bin/rm -rf .git
+    
    
