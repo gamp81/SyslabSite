@@ -24,8 +24,8 @@ body {
 }
 .whatsapp {
   position:fixed;
-  width:55px;
-  height:55px;
+  width:89px;
+  height:89px;
   bottom:40px;
   right:40px;
   background-color:#25d366;
@@ -628,8 +628,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-top: 10px;
   margin-bottom: 0;
-  color: red;
-  /* color: #d5d8db; */
+  color: #d5d8db;
 }
 .fh5co-pricing .price {
   font-size: 72px;
